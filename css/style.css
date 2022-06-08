@@ -67,9 +67,12 @@ p:last-child {
     margin-right: auto;
 }
 
+.header .logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .logo {
-    padding-top: 25px;
-    padding-bottom: 25px;
     margin-right: 93px;
 
     color: var(--accent-text-color);
@@ -159,7 +162,7 @@ p:last-child {
 /* -------------------------------------------Hero */
 .hero {
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 
     background-color: var(--header-section-bg-color);
 }
@@ -208,6 +211,10 @@ p:last-child {
 }
 
 /* -----------------------------------------Benefits */
+.benefits {
+    padding-bottom: 47px;
+}
+
 .benefits-list {
     display: flex;
 
@@ -238,6 +245,10 @@ p:last-child {
 }
 
 /* -----------------------------------Section work */
+.feauters {
+    padding-top: 47px;
+}
+
 .section-title {
     margin-bottom: 50px;
 
@@ -319,8 +330,6 @@ p:last-child {
 .footer .logo {
     display: block;
     margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .logo-secondary {
@@ -363,7 +372,9 @@ p:last-child {
 .button-list {
     display: flex;
     justify-content: center;
+    margin-top: 0;
     margin-bottom: 50px;
+    padding: 0;
     list-style: none;
 }
 
@@ -422,7 +433,8 @@ p:last-child {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .portfolio-item {
